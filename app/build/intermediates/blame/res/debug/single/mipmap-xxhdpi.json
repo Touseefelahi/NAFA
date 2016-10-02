@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\touseef.elahi\\AndroidStudioProjects\\NAFA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\touseef.elahi\\AndroidStudioProjects\\NAFA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\touseef.elahi\\AndroidStudioProjects\\NAFA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\nafaicon.png",
+        "source": "C:\\Users\\touseef.elahi\\AndroidStudioProjects\\NAFA\\app\\src\\main\\res\\mipmap-xxhdpi\\nafaicon.png"
+    }
+]

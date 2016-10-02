@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="22"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="10807610882855"
+    token="-661788819539476503"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="C:\Users\touseef.elahi\AndroidStudioProjects\NAFA\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+
+    <build
+        timestamp="8997905021700"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\touseef.elahi\AndroidStudioProjects\NAFA\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="9319652389710"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\touseef.elahi\AndroidStudioProjects\NAFA\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\touseef.elahi\AndroidStudioProjects\NAFA\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="10807610882855"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\touseef.elahi\AndroidStudioProjects\NAFA\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>

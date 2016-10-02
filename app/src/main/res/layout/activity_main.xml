@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.touseefelahi.nafa.MainActivity"
+    tools:background="?android:attr/textColorSearchUrl"
+    android:background="@drawable/background">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textviewInPKR"
+        android:ems="10"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:id="@+id/textboxAmount"
+        android:layout_alignBaseline="@+id/labelEnterAmount"
+        android:layout_alignBottom="@+id/labelEnterAmount"
+        android:layout_toRightOf="@+id/labelEnterAmount"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:singleLine="true"
+        android:inputType="numberDecimal"
+        android:numeric="integer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:id="@+id/textboxOutcome"
+        android:singleLine="true"
+        android:clickable="false"
+        android:editable="false"
+        android:layout_alignBaseline="@+id/labelBenefit"
+        android:layout_alignBottom="@+id/labelBenefit"
+        android:layout_alignLeft="@+id/textboxAmount"
+        android:layout_alignStart="@+id/textboxAmount"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCalculate"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textboxOutcome"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:theme="@style/AlertDialog.AppCompat"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <TextView
+        android:text="@string/labelAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/labelEnterAmount"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorButtons" />
+
+    <TextView
+        android:text="@string/textviewOutcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:id="@+id/labelBenefit"
+        android:gravity="center_vertical|center_horizontal"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:layout_below="@+id/textboxAmount"
+        android:layout_alignRight="@+id/labelEnterAmount"
+        android:layout_alignEnd="@+id/labelEnterAmount"
+        android:textColor="@color/colorButtons" />
+</RelativeLayout>

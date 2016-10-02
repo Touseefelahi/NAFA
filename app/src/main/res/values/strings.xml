@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NAFA</string>
+    <string name="labelAmount">Enter Amount</string>
+    <string name="textviewInPKR">Enter Amount Here</string>
+    <string name="textviewOutcome">Outcome</string>
+    <string name="buttonCalculate">Calculate</string>
+
+
+
+</resources>
