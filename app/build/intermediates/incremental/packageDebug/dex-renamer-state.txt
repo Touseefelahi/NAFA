@@ -1,4 +1,4 @@
-#Sun Oct 02 10:23:39 AST 2016
+#Wed Oct 05 14:47:37 AST 2016
 base.0=C\:\\Users\\touseef.elahi\\AndroidStudioProjects\\NAFA\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2b7857a51961696499087ae108de2b50e4ff8345
 renamed.1=classes2.dex
 renamed.0=classes.dex

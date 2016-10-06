@@ -42,6 +42,15 @@
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <color name="labelColor">#352f89</color>
+    <color name="layout">#0d0b33</color>
+    <color name="layout0">#14104d</color>
+    <color name="layout1">#18145c</color>
+    <color name="layout2">#1d1873</color>
+    <color name="layout3">#241e8e</color>
+    <color name="layout4">#2d26b3</color>
+    <color name="layout5">#362ed2</color>
+    <color name="layout6">#4138f7</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -129,6 +138,50 @@
             <enum name="screen" value="15"/>
         </attr></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
+    <declare-styleable name="GridLayout"><attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable>
+    <declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="float" name="layout_rowWeight"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr format="float" name="layout_columnWeight"/><attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers">
             <flag name="none" value="0"/>
             <flag name="beginning" value="1"/>
@@ -277,6 +330,7 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_gap">8dip</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
@@ -333,6 +387,53 @@
     <string name="app_name">NAFA</string>
     <string name="buttonCalculate">Calculate</string>
     <string name="labelAmount">Enter Amount</string>
+    <string name="labelFutureCommonGoals">Common Goals of Financial Planing</string>
+    <string name="labelFutureCurrentSaving">Do you have any current savings that you intend
+    to invest?(Pak Rupees)
+    </string>
+    <string name="labelFutureInfo"> Home-Building/ Buying/ Improvements\n
+    Higher Education of Children\n
+        Marriage of children\n
+        Hajj/ Umrah/ Travel / Vacation planning\n
+        Healthcare expense in old-age\n
+        Living expense in old-age
+    </string>
+    <string name="labelFutureMonthly">How much do you intend to invest in NAFA Funds on Monthly
+    basis?</string>
+    <string name="labelFuturePaymentFrequency">Which Payment frequency suits you?</string>
+    <string name="labelFutureRateOfReturn">Your Desired Rate of Return?(% per Year)</string>
+    <string name="labelFutureTitle">NAFA Future value calculator</string>
+    <string name="labelFutureYears">How many years from now will you require this amount?</string>
+    <string name="labelPeriodicCurrentSavings">Do you have any current savings that you intend to
+    invest? (Pak Rupees)</string>
+    <string name="labelPeriodicDesiredFutureAmount">Your Desired Future Amount? (Pak Rupees)</string>
+    <string name="labelPeriodicTitle">NAFA Periodic Payment calculator</string>
+    <string name="labelPresentTitle">NAFA Present Value Calculator</string>
+    <string name="labelResult">Result</string>
+    <string name="labelTaxRebateAnnualTaxable">What is your Annual Taxable Income?</string>
+    <string name="labelTaxRebateChooseIncomeType">Please Choose Income Type</string>
+    <string name="labelTaxRebateChooseTaxCredit">Please Choose Tax Credit Type</string>
+    <string name="labelTaxRebateCurrentAge">What is your Current Age?</string>
+    <string name="labelTaxRebateMutualFund">As Per Section 62 on income tax ordinance
+        (For Mutual Funds)</string>
+    <string name="labelTaxRebatePensionFunds">As Per Section 63 on income tax ordinance
+        (For Pension Funds)</string>
+    <string name="labelTaxRebateTitle">NAFA Tax Rebate Calculator</string>
+    <string name="labelVPSBenefits"> What is your per month gross salary including all benefits at
+        time of joining NAFA Pension Fund?</string>
+    <string name="labelVPSContributeNafa">Contribute in NAFA pension Fund?(%)</string>
+    <string name="labelVPSExpectedYearRetirement">At what age do you expect to retire?</string>
+    <string name="labelVPSInfo">At Retirement Age, Participants are allowed to withdraw 50% of their
+    accumulated balance in NAFA Pension Fund without paying any tax. For remaining or whole they can choose to\n
+    a)Enroll in an Income Payment Plan\n
+    b)Buy an annuity\n
+    c)Withdraw while paying the applicable tax\n
+  </string>
+    <string name="labelVPSPension">What is your age at the time of joining NAFA Pension Fund?</string>
+    <string name="labelVPSPensionFund">NAFA Pension Fund, would you intent to transfer to Income Payment Plan?(%)</string>
+    <string name="labelVPSSalaryIncrements">What is your expected average Salary Increment in your working years?(%)</string>
+    <string name="labelVPSTaxableAmount">Please check if you want to invest only up to taxable amount</string>
+    <string name="labelVPSTitle">NAFA VPS Simulator</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="textviewInPKR">Enter Amount Here</string>

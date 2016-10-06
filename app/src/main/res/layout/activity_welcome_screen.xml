@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.touseefelahi.nafa.welcomeScreen">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelWelcome"
+            android:gravity="center_horizontal"
+            android:textSize="36sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHighlight="@color/colorWhite"
+            android:background="@color/labelColor" />
+
+        <TextView
+            android:text="Select Your Plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelSelectPlan"
+            android:gravity="center_horizontal"
+            android:textSize="28sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark" />
+
+        <Button
+            android:text="Retirement Calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelRetirement"
+            android:textSize="26sp"
+            android:clickable="true"
+            android:textColor="@color/layout1"
+            android:paddingTop="20dp" />
+
+        <Button
+            android:text="Tax Rebate Calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelTaxRebate"
+            android:clickable="true"
+            android:textSize="26sp"
+            android:textColor="@color/layout2" />
+
+        <Button
+            android:text="Periodic Payment Calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelPeriodicPayment"
+            android:textSize="26sp"
+            android:textColor="@color/layout3" />
+
+        <Button
+            android:text="Future Value Calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelFutureValue"
+            android:textSize="26sp"
+            android:textColor="@color/layout4" />
+
+        <Button
+            android:text="Present Value Calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelPresentValue"
+            android:textSize="26sp"
+            android:textColor="@color/layout5" />
+
+        <Button
+            android:text="VPS SIMULATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelVPS"
+            android:textSize="26sp"
+            android:textColor="@color/layout6" />
+    </LinearLayout>
+
+</RelativeLayout>

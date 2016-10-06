@@ -8,13 +8,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".welcomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".taxRebateActivity" />
+        <activity android:name=".futureValueActivity" />
+        <activity android:name=".periodicPayment" />
+        <activity android:name=".presentActivity" />
+        <activity android:name=".vpsSimulator" />
+        <activity android:name=".retirementCalculator"></activity>
     </application>
 
 </manifest>

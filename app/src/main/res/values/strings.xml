@@ -6,5 +6,61 @@
     <string name="buttonCalculate">Calculate</string>
 
 
+    <string name="labelTaxRebateTitle">NAFA Tax Rebate Calculator</string>
+    <string name="labelTaxRebateMutualFund">As Per Section 62 on income tax ordinance
+        (For Mutual Funds)</string>
+    <string name="labelTaxRebatePensionFunds">As Per Section 63 on income tax ordinance
+        (For Pension Funds)</string>
+    <string name="labelTaxRebateChooseTaxCredit">Please Choose Tax Credit Type</string>
+    <string name="labelTaxRebateChooseIncomeType">Please Choose Income Type</string>
+    <string name="labelTaxRebateCurrentAge">What is your Current Age?</string>
+    <string name="labelTaxRebateAnnualTaxable">What is your Annual Taxable Income?</string>
+    <string name="labelResult">Result</string>
+
+
+    <string name="labelFutureTitle">NAFA Future value calculator</string>
+    <string name="labelFutureCommonGoals">Common Goals of Financial Planing</string>
+
+    <string name="labelFutureInfo"> Home-Building/ Buying/ Improvements\n
+    Higher Education of Children\n
+        Marriage of children\n
+        Hajj/ Umrah/ Travel / Vacation planning\n
+        Healthcare expense in old-age\n
+        Living expense in old-age
+    </string>
+    <string name="labelFuturePaymentFrequency">Which Payment frequency suits you?</string>
+    <string name="labelFutureYears">How many years from now will you require this amount?</string>
+    <string name="labelFutureCurrentSaving">Do you have any current savings that you intend
+    to invest?(Pak Rupees)
+    </string>
+    <string name="labelFutureMonthly">How much do you intend to invest in NAFA Funds on Monthly
+    basis?</string>
+    <string name="labelFutureRateOfReturn">Your Desired Rate of Return?(% per Year)</string>
+
+    <string name="labelPeriodicTitle">NAFA Periodic Payment calculator</string>
+    <string name="labelPeriodicDesiredFutureAmount">Your Desired Future Amount? (Pak Rupees)</string>
+    <string name="labelPeriodicCurrentSavings">Do you have any current savings that you intend to
+    invest? (Pak Rupees)</string>
+
+
+    <string name="labelPresentTitle">NAFA Present Value Calculator</string>
+
+
+    <string name="labelVPSTitle">NAFA VPS Simulator</string>
+    <string name="labelVPSPension">What is your age at the time of joining NAFA Pension Fund?</string>
+    <string name="labelVPSBenefits"> What is your per month gross salary including all benefits at
+        time of joining NAFA Pension Fund?</string>
+    <string name="labelVPSSalaryIncrements">What is your expected average Salary Increment in your working years?(%)</string>
+    <string name="labelVPSExpectedYearRetirement">At what age do you expect to retire?</string>
+    <string name="labelVPSTaxableAmount">Please check if you want to invest only up to taxable amount</string>
+    <string name="labelVPSContributeNafa">Contribute in NAFA pension Fund?(%)</string>
+    <string name="labelVPSPensionFund">NAFA Pension Fund, would you intent to transfer to Income Payment Plan?(%)</string>
+    <string name="labelVPSInfo">At Retirement Age, Participants are allowed to withdraw 50% of their
+    accumulated balance in NAFA Pension Fund without paying any tax. For remaining or whole they can choose to\n
+    a)Enroll in an Income Payment Plan\n
+    b)Buy an annuity\n
+    c)Withdraw while paying the applicable tax\n
+  </string>
+
 
 </resources>
